@@ -1,2 +1,58 @@
+body{
+    background-color: #0d1117;
+    color: #c9d1d9;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+}
+.contact-form{
+    background-color: #161b22;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.2);
+    width: 100%;
+    max-width:500px ;
+}
+.contact-form h2{
+    margin-bottom: 20px;
+    color: #58a6ff;
 
+}
+.form-group{
+    margin-bottom: 15px;
+}
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #21262d;
+    color: #c9d1d9;
+    font-size: 16px;
+}
+.form-group textarea{
+    resize: vertical;
+    min-height: 100px;
+}
+.form-group button{
+    background-color: #238636;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.form-group button:hover{
+    background-color: #2ea048;
+}
 
